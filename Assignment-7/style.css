@@ -1,0 +1,57 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  h1, h2 {
+    color: rgb(51, 69, 188);
+    text-align: center;
+  }
+
+  p {
+    color: gray;
+    margin: 0.5em 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ol {
+    border: 2px solid purple;
+  }
+
+  ul {
+    border: 2px solid orange;
+  }
+
+  ol, ul {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-width: 6px;
+  }
+  strong {
+    color: purple;
+  }
+
+  em {
+    color: gray;
+    margin: 0.5em 0;
+  }
+
+  hr {
+    margin: 50px;
+  }
