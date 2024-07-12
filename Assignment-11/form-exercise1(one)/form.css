@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+/* form styling */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: darkred;
+}
+
+.button {
+	background-color: #04AA6D; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	margin-right: 0.0001em;
+	width: 8em;  /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+}
+
+#formcol1 li {   
+	list-style:none;
+}
+
+/* end of form css */
+	
